@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts":{
-    "dev": "node index.js"
+    "dev": "node src/index.js"
   },
-  "main": "index.js",
+  "main": "./src/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./src/**"},
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
