@@ -1,0 +1,13 @@
+{
+  "name": "koc-bot",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts":{
+    "dev": "node index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
